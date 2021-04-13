@@ -20,7 +20,7 @@ console.log(test.length);
 //05- Replace
 var food;
 food ="croissant is meh";
-food = food.replace("meh", "so");
+food = food.replace("meh", "so good");
 console.log(food);
 
 //06 Up and Down
@@ -32,10 +32,17 @@ var basicDown = basic.toLowerCase();
 console.log(basicDown);
 
 
-//07 Template
+//07 Split
 var word  ="banana";
 var letters = word.split("");
 console.log(letters);
+
+
+//08 Template
+var age ="29";
+var template =`I am ${age} years old`;
+console.log(template);
+
 
 
 
