@@ -32,6 +32,29 @@ if (score>= limit){
     console.log("OK good");//OK good
 
 }
-else if (score< limit);{
-    console.log("oh noooo...")
+else {console.log("oh noooo...") 
+   //oh noooo...
 }
+
+var limit = 50;
+var score = 20;
+if (score>= limit){
+    console.log("OK good");//oh noooo
+
+}
+else {console.log("oh noooo...") 
+   //oh noooo...
+}
+
+
+
+//07 - Condition 2
+var password = "azerty";
+
+if (password.length > 7 ){
+    console.log("The password is secure")
+}//λ The password is secure
+else {console.log("azerty") }
+
+
+
