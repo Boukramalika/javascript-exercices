@@ -74,3 +74,12 @@ else if (score>= limit || password.length > 5)
     console.log("Something is good");
 }
 else {console.log("Nothing is good") }
+
+
+// 11-bonus
+var random = 20;
+if (random <= 10)
+{
+    console.log("Yes I win ")
+}
+else {console.log("So close...") }
