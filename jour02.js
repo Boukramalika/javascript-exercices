@@ -51,10 +51,26 @@ else {console.log("oh noooo...")
 //07 - Condition 2
 var password = "azerty";
 
-if (password.length > 7 ){
+if (password.length > 5 ){
     console.log("The password is secure")
 }//λ The password is secure
 else {console.log("azerty") }
 
 
+//08-Condition3
+var limit = 50;
+var score = 64;
+var password = "azerty";
 
+if (score>= limit &&  password.length > 5)
+{
+    console.log("Everything is good");
+
+}
+   
+
+else if (score>= limit || password.length > 5)
+{
+    console.log("Something is good");
+}
+else {console.log("Nothing is good") }
