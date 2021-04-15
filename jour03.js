@@ -45,7 +45,22 @@ for ( var i=0 ; i <= limit; i++)
 }
 
 
+//06 - Reverse
+var sentence = "Hello Konexio!";
 
+console.log(sentence.length);
+var resultat2="";
+
+for(var i = sentence.length -1 ;i >= 0 ; i--)
+{
+
+    
+
+    resultat2 += sentence.charAt(i);
+  
+
+}
+console.log(resultat2);
 
 
 
