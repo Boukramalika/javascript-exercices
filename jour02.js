@@ -77,9 +77,47 @@ else {console.log("Nothing is good") }
 
 
 // 11-bonus
-var random = 20;
+var min = 1;
+var max = 10;
+
+var random = Math.floor(Math.random() * (max - min + 1) + min);
+
 if (random <= 10)
 {
     console.log("Yes I win ")
 }
 else {console.log("So close...") }
+
+
+// 12-Bonus
+var month = "January";
+switch (month) 
+{
+    case "January": 
+    case "February":
+    case "March": 
+		console.log("winter");
+		break;
+	case "April": 
+    case "May":
+    case "June":
+		console.log("Spring");
+		break;
+	case "July":
+    case "August": 
+    case "September":
+		console.log("summer");
+		break;
+	case "Octobere": 
+    case "November":
+    case "December":
+		console.log("Autumn");
+		break;	
+	
+}
+
+
+
+
+
+
