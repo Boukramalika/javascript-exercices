@@ -15,11 +15,8 @@ for (var i= 100; i<=1000; i++)
 {
     if(i % 7 === 0 )
     {
-
         comptage = comptage + 1;
-        
     }
-
 }
 
 console.log(comptage);
