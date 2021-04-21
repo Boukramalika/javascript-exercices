@@ -35,11 +35,28 @@ function countEach(string)
     }
     if ( lettreX ===lettreO)
     {
-        return console.log ("is true ");
+        console.log ("is true ");
     }
     else 
      {
-        return console.log("is false");
+       console.log("is false");
      };
- }
- console.log(countEach("xxxxxxoooooo"));
+}
+ countEach("xxxxxxoooooo");
+
+
+
+
+ // 03 - Palindrome
+
+ function checkPal(word) {    
+    var l = word.length;
+    for (var i = 0; i < l / 2; i++) {
+        if (word.charAt(i) !== word.charAt(l - 1 - i)) {
+            return console.log("Nope");
+        }
+    }
+    return console.log ("Palindrome!");
+   }
+
+checkPal("racecar");
